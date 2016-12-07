@@ -3,7 +3,10 @@
 	"name": "Google Calendar Scroll Disabler",
 	"version": "0.2",
 	"permissions": [
-		"identity"
+		"identity",
+		"https://ssl.gstatic.com/",
+		"https://www.googleapis.com/",
+		"https://accounts.google.com/"
 	],
 	"oauth2": {
 		"client_id": "740632847649-sro6qs7tp45a23tec8oenjctp3cdv5aa.apps.googleusercontent.com",
@@ -22,5 +25,10 @@
 			],
 			"js": ["jquery-2.1.4.min.js", "content.js"]
 		}
-	]
+	],
+	"background": {
+		"scripts": [
+			"auth.js"
+		]
+	}
 }
