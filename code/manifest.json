@@ -6,11 +6,11 @@
 		"identity"
 	],
 	"oauth2": {
-		"client_id": "665859454684.apps.googleusercontent.com",
+		"client_id": "740632847649-sro6qs7tp45a23tec8oenjctp3cdv5aa.apps.googleusercontent.com",
 		"scopes": [
-			"https://www.googleapis.com/auth/drive"
+			"https://www.googleapis.com/auth/calendar.readonly"
 		]
-	}
+	},
 	"icons": {
 		"16": "icon16.png",
 		"48": "icon48.png"
